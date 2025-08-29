@@ -7,29 +7,24 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ---- Mongo Connection ----
+//Mongo Connection
 const MONGO_URI = process.env.MONGO_CONNECTION;
 mongoose
-  .connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(MONGO_URI)
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) => console.error("❌ MongoDB error:", err.message));
 
-// ---- Schema & Model ----
-// Using a flexible schema since your JSON is nested
+// Schema
 const CareerPathSchema = new mongoose.Schema({}, { strict: false });
-// Explicitly set collection name = "career_paths"
+// collection name = "career_paths"
 const CareerPaths = mongoose.model(
   "CareerPaths",
   CareerPathSchema,
   "career_paths"
 );
 
-// ---- Routes ----
-
-// Health check
 app.get("/api/ping", (_req, res) => res.json({ ok: true }));
 
-// Raw dump for testing
 app.get("/api/raw", async (_req, res) => {
   try {
     const docs = await CareerPaths.find({});
@@ -73,7 +68,7 @@ app.post("/api/filter", async (req, res) => {
   }
 });
 
-// ---- Server ----
+// Server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
   console.log(`🚀 Backend running on http://localhost:${PORT}`)
