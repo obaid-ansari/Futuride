@@ -1,0 +1,36 @@
+.quiz-page {
+  background-image: url(../assets/blurImg4.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-mode .quiz-page {
+  background-color: #111;
+}
+
+.form {
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode .form {
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards {
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.2s linear;
+}
+
+.dark-mode .cards {
+  backdrop-filter: blur(100px);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}

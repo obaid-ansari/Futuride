@@ -1,0 +1,140 @@
+.progres {
+  position: relative;
+}
+
+/* Floating Animations */
+@keyframes float-tl {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-20px, -20px);
+  }
+}
+
+@keyframes float-tr {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -20px);
+  }
+}
+
+@keyframes float-bl {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-20px, 20px);
+  }
+}
+
+@keyframes float-br {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 20px);
+  }
+}
+
+/* Base style for all images */
+.logos img {
+  height: 150px;
+  position: absolute;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: -10;
+}
+
+/* Assign animations to each image */
+.img1 {
+  top: 0%;
+  right: 15%;
+  animation-name: float-tr;
+  animation-delay: 0s;
+}
+.img2 {
+  bottom: 0%;
+  left: 15%;
+  animation-name: float-bl;
+  animation-delay: 0.3s;
+}
+.img3 {
+  top: 20%;
+  right: 5%;
+  animation-name: float-tl;
+  animation-delay: 0.6s;
+}
+.img4 {
+  bottom: 20%;
+  left: 5%;
+  animation-name: float-br;
+  animation-delay: 0.9s;
+}
+.img5 {
+  top: 40%;
+  right: 10%;
+  animation-name: float-tr;
+  animation-delay: 1.2s;
+}
+.img6 {
+  bottom: 40%;
+  left: 10%;
+  animation-name: float-bl;
+  animation-delay: 1.5s;
+}
+.img7 {
+  top: 60%;
+  right: 0%;
+  animation-name: float-tl;
+  animation-delay: 1.8s;
+}
+.img8 {
+  bottom: 60%;
+  left: 0%;
+  animation-name: float-br;
+  animation-delay: 2.1s;
+}
+.img9 {
+  top: 80%;
+  right: 20%;
+  animation-name: float-tr;
+  animation-delay: 2.4s;
+}
+.img10 {
+  bottom: 80%;
+  left: 20%;
+  animation-name: float-bl;
+  animation-delay: 2.7s;
+}
+
+@media (max-width: 768px) {
+  .logos img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 508px) {
+  /* Hide 2 img*/
+  .logos .img3 {
+    display: none;
+  }
+  .logos .img7 {
+    display: none;
+  }
+  .logos .img4 {
+    display: none;
+  }
+  .logos .img8 {
+    display: none;
+  }
+}

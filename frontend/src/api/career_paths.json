@@ -1,0 +1,931 @@
+[
+  {
+    "category": "Technology",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1356364287/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?s=612x612&w=0&k=20&c=ijjq-DLNxIaPuGvIX8k06IZxMAjGpyJeboaV_byCX9k=",
+          "field": "Software Engineering",
+          "description": "Focuses on designing, building, and maintaining software systems.",
+          "skills": [
+            "Programming",
+            "Problem-solving",
+            "Algorithms",
+            "Database Management",
+            "Version Control"
+          ],
+          "salary": "₹6–12 LPA",
+          "experience": "2-5 years for mid-level positions",
+          "courses": [
+            "B.Tech in Computer Science",
+            "Full-Stack Web Development",
+            "Data Structures & Algorithms"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1396661329/photo/teamwork-with-massive-data-behind-a-futuristic-interface.jpg?s=612x612&w=0&k=20&c=WuXz-p3k8vk0mOq_K1-COaRUSPwnWathb4EK0H8qf48=",
+          "field": "Data Science",
+          "description": "Involves analyzing large datasets to extract insights and build predictive models.",
+          "skills": [
+            "Statistics",
+            "Machine Learning",
+            "Python/R",
+            "Data Visualization",
+            "SQL"
+          ],
+          "salary": "₹7–14 LPA",
+          "experience": "2-3 years for analysis roles",
+          "courses": [
+            "B.Sc in Data Science",
+            "Machine Learning Specialization",
+            "Data Analytics Bootcamp"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1674613239/photo/security-concept-digital-shield-and-lock-firewall-protection-from-viruses-and-malware-modern.jpg?s=612x612&w=0&k=20&c=CbS4QphHYD237ogeJRscfAD7DYQ2sbpuBoB8NYLbL_Q=",
+          "field": "Cybersecurity",
+          "description": "Protects systems, networks, and programs from cyber threats.",
+          "skills": [
+            "Network Security",
+            "Cryptography",
+            "Risk Analysis",
+            "Incident Response",
+            "Ethical Hacking"
+          ],
+          "salary": "₹5–10 LPA",
+          "experience": "2-4 years in IT security",
+          "courses": [
+            "B.Tech in Cybersecurity",
+            "Certified Ethical Hacker (CEH)",
+            "CompTIA Security+"
+          ]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/2212360504/photo/holographic-ui-ux-display-icons-of-ux-ui-designer-creative-planning-data-visualization-web.jpg?s=612x612&w=0&k=20&c=djva2dSeRul05un08MwAq6mtJWziQ98K8eEa9y8YBh4=",
+          "field": "Web Development",
+          "description": "Creating and maintaining websites and web applications.",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Backend Development"
+          ],
+          "salary": "₹3–8 LPA",
+          "experience": "1-3 years in web technologies",
+          "courses": [
+            "Diploma in Web Development",
+            "React.js Certification",
+            "Node.js Bootcamp"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1322205536/photo/digitally-enhanced-shot-of-two-attractive-businesswomen-working-in-the-office-superimposed.jpg?s=612x612&w=0&k=20&c=NCHOQkl8u-HFtgsoN7qBP5dPXgzSiYi5wh2b-DNGqo0=",
+          "field": "Database Administrator",
+          "description": "Maintains and secures organizational databases ensuring performance.",
+          "skills": ["SQL", "Oracle", "Database Security"],
+          "salary": "₹4–8 LPA",
+          "experience": "1–3 years",
+          "courses": ["Oracle DBA", "MySQL Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1132874986/photo/theyve-got-the-answers-youre-looking-for.jpg?s=612x612&w=0&k=20&c=nxfQd3uhDr8598BjKiTPZp-RN0HuJU9v3clLE9wO5Sk=",
+          "field": "IT Support Specialist",
+          "description": "Provides technical assistance to computer users and companies.",
+          "skills": [
+            "Troubleshooting",
+            "Networking",
+            "Operating Systems",
+            "Communication",
+            "Customer Service"
+          ],
+          "salary": "₹2–5 LPA",
+          "experience": "Entry to mid-level",
+          "courses": [
+            "CompTIA A+",
+            "Networking Essentials",
+            "Microsoft Certified Solutions Associate"
+          ]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1348273219/photo/an-anonymous-business-woman-having-conference-call-meeting-on-digital-tablet-in-a-cafe.jpg?s=612x612&w=0&k=20&c=8Vpf1or0u9f2-ZYrK6Cryz7R3n4N_7MKCbEKyzyJ_7Y=",
+          "field": "Technical Writing",
+          "description": "Creating documentation and guides for software or hardware.",
+          "skills": [
+            "Writing",
+            "Research",
+            "Basic Tech Knowledge",
+            "Editing",
+            "Communication"
+          ],
+          "salary": "₹3-6 LPA",
+          "experience": "0-2 years in writing or IT",
+          "courses": [
+            "Technical Writing Certification",
+            "Basic Computer Skills",
+            "Content Development"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1652679812/photo/digital-marketing-business-technology-website-advertisement-email-social-media-network-seo.jpg?s=612x612&w=0&k=20&c=mRW05wJVdNnCRTaVWs5HLUrWb3BT-mt1Qnvlx7YPMU0=",
+          "field": "Digital Marketing",
+          "description": "Promotes technology products using online platforms.",
+          "skills": [
+            "SEO",
+            "Social Media Marketing",
+            "Analytics",
+            "Content Creation",
+            "Email Marketing"
+          ],
+          "salary": "₹3–6 LPA",
+          "experience": "0-2 years",
+          "courses": [
+            "Google Digital Garage",
+            "SEO Specialization",
+            "Social Media Marketing Bootcamp"
+          ]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/1346929901/photo/group-of-customer-service-representatives-working-at-a-call-center.jpg?s=612x612&w=0&k=20&c=mkbweOL4IQa1zvXijeJiyVaSKUHtL_BEAlL6aohiku4=",
+          "field": "Computer Operator",
+          "description": "Manages daily operations of computer systems.",
+          "skills": [
+            "Basic Computer Skills",
+            "Data Entry",
+            "MS Office",
+            "Organization",
+            "Attention to Detail"
+          ],
+          "salary": "₹1.5–2 LPA",
+          "experience": "Entry-level",
+          "courses": ["Basic Computer Applications", "MS Office Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2176139926/photo/indian-business-woman-team-leader-show-growth-chart-ideas-whiteboard-discuss-market-graph.jpg?s=612x612&w=0&k=20&c=ZjhF80LqnX7Hv3CnXd551y9ZFL9NNYMtfNW163v4SB8=",
+          "field": "IT Sales Executive",
+          "description": "Sells technology products and services to clients.",
+          "skills": [
+            "Sales",
+            "Negotiation",
+            "Tech Knowledge",
+            "Customer Relations",
+            "Communication"
+          ],
+          "salary": "₹2–5 LPA",
+          "experience": "Entry-level",
+          "courses": ["Sales Training", "Basics of Information Technology"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Science",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1346675527/photo/medical-science-laboratory-portrait-of-beautiful-black-scientist-looking-under-microscope.jpg?s=612x612&w=0&k=20&c=xDRiQ1uX5bg0k3mU9SnsOIM6DSeeex-N3uFVSDgRt1w=",
+          "field": "Research Scientist",
+          "description": "Conducts experiments and research in scientific fields.",
+          "skills": [
+            "Analytical Thinking",
+            "Lab Skills",
+            "Critical Thinking",
+            "Data Analysis",
+            "Technical Writing"
+          ],
+          "salary": "₹5–12 LPA",
+          "experience": "2-5 years",
+          "courses": [
+            "B.Sc/M.Sc in Physics/Chemistry/Biology",
+            "Ph.D. in relevant field"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2209701327/photo/scientist-in-laboratory-study-and-analyze-scientific-sample.jpg?s=612x612&w=0&k=20&c=4oVe_5sj35b68rpCVSwQJFg05Q8xCU1b3km7YEq5b0k=",
+          "field": "Biotechnologist",
+          "description": "Applies technology to biological systems for healthcare, agriculture, and environment.",
+          "skills": [
+            "Genetics",
+            "Microbiology",
+            "Lab Techniques",
+            "Problem-solving",
+            "Research Skills"
+          ],
+          "salary": "₹4–9 LPA",
+          "experience": "2-3 years",
+          "courses": ["B.Sc in Biotechnology", "M.Sc in Biotechnology"]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/2157592813/photo/a-microbiological-culture-petri-dish-with-a-colonies-of-the-pathogenic-bacterium-escherichia.jpg?s=612x612&w=0&k=20&c=S0weOGy5wVlmzYt-VJlaKAiwgAcr0Geq5p7IrLYssGA=",
+          "field": "Microbiologist",
+          "description": "Studies microorganisms and their role in health, environment, and industries.",
+          "skills": ["Lab Work", "Observation", "Critical Thinking"],
+          "salary": "₹3–6 LPA",
+          "experience": "1–3 years",
+          "courses": ["B.Sc Microbiology", "M.Sc Microbiology"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/823447562/photo/research-scientist-looks-into-microscope-hes-conducts-experiments-in-modern-laboratory.jpg?s=612x612&w=0&k=20&c=Q68ORwn1k3hCQ-L7y_3Mrr5tzhCgKkHA11N6AKy1UXg=",
+          "field": "Lab Technician",
+          "description": "Supports scientists by preparing experiments and analyzing results.",
+          "skills": [
+            "Lab Equipment Handling",
+            "Observation",
+            "Record-keeping",
+            "Safety Procedures",
+            "Basic Science Knowledge"
+          ],
+          "salary": "₹2–4 LPA",
+          "experience": "1-2 years",
+          "courses": ["Diploma in Lab Technology", "B.Sc in relevant science"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1012405368/photo/scientists-in-laboratory-working-on-research.jpg?s=612x612&w=0&k=20&c=qGuh-kPQ2EBLU1dHZ2aMv5CDAt4pv6uTr-oRdOZO2Ck=",
+          "field": "Forensic Scientist",
+          "description": "Analyzes evidence for criminal investigations using scientific methods.",
+          "skills": [
+            "Analytical Skills",
+            "Attention to Detail",
+            "Lab Analysis"
+          ],
+          "salary": "₹4–8 LPA",
+          "experience": "2–5 years",
+          "courses": ["B.Sc in Forensic Science", "Criminology Certification"]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1351409590/photo/teacher-doing-chemical-experiment-with-students-in-laboratory.jpg?s=612x612&w=0&k=20&c=ISuQdBAalNXy0SwMEnDIUyktmYhxtya_EFD3DbrVSgU=",
+          "field": "Science Educator",
+          "description": "Teaches science subjects at schools or coaching centers.",
+          "skills": [
+            "Subject Knowledge",
+            "Communication",
+            "Patience",
+            "Presentation Skills",
+            "Adaptability"
+          ],
+          "salary": "₹3–6 LPA",
+          "experience": "0-2 years",
+          "courses": ["B.Ed", "B.Sc in relevant subject"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/585776870/photo/two-scientist-looking-at-the-computer-monitor.jpg?s=612x612&w=0&k=20&c=ybRpawzd7vrtYPeNP9lbp26l5CT-W5qpb-5Gs-A7vP4=",
+          "field": "Research Assistant",
+          "description": "Supports research projects by collecting data and conducting experiments.",
+          "skills": ["Data Analysis", "Lab Techniques", "Documentation"],
+          "salary": "₹2–4 LPA",
+          "experience": "Entry-level",
+          "courses": ["B.Sc in Science", "Research Methodology Certificate"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/1304450711/photo/database-and-network-technology.jpg?s=612x612&w=0&k=20&c=MhQjOSVPakxRx0XB99HjygBaOEwyzpXjRrzJ-cSlVOo=",
+          "field": "Field Data Collector",
+          "description": "Collects and records scientific data from research sites.",
+          "skills": [
+            "Observation",
+            "Data Recording",
+            "Travel Readiness",
+            "Basic Science Knowledge",
+            "Communication"
+          ],
+          "salary": "₹1.5–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Certificate in Field Research Methods"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Commerce / Business",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1156504180/photo/chartered-accountant-certification.jpg?s=612x612&w=0&k=20&c=T7UV09h_3WgzHITSgs0xMpLlvXDGW5LZTQi--ZWbiz0=",
+          "field": "Chartered Accountant",
+          "description": "Handles accounting, auditing, and financial reporting.",
+          "skills": [
+            "Accounting",
+            "Auditing",
+            "Taxation",
+            "Analytical Skills",
+            "Attention to Detail"
+          ],
+          "salary": "₹7–15 LPA",
+          "experience": "2-5 years",
+          "courses": ["CA Foundation", "CA Intermediate", "CA Final"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1488294044/photo/businessman-works-on-laptop-showing-business-analytics-dashboard-with-charts-metrics-and-kpi.jpg?s=612x612&w=0&k=20&c=AcxzQAe1LY4lGp0C6EQ6reI7ZkFC2ftS09yw_3BVkpk=",
+          "field": "Business Analyst",
+          "description": "Analyzes business processes and recommends improvements.",
+          "skills": [
+            "Data Analysis",
+            "Business Knowledge",
+            "Communication",
+            "Problem-solving",
+            "Documentation"
+          ],
+          "salary": "₹6–12 LPA",
+          "experience": "2-3 years",
+          "courses": ["BBA", "MBA", "Business Analytics Certification"]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/978522984/photo/businessman-checking-invoice.jpg?s=612x612&w=0&k=20&c=Kffi1lIa1nXXEvPVnKGL8U3jjBJmjKjo6EwIcxqn8lk=",
+          "field": "Accountant",
+          "description": "Manages financial records for individuals or organizations.",
+          "skills": [
+            "Bookkeeping",
+            "MS Excel",
+            "Tax Filing",
+            "Analytical Skills",
+            "Time Management"
+          ],
+          "salary": "₹3–6 LPA",
+          "experience": "1-3 years",
+          "courses": ["B.Com", "Diploma in Accounting"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2176139926/photo/indian-business-woman-team-leader-show-growth-chart-ideas-whiteboard-discuss-market-graph.jpg?s=612x612&w=0&k=20&c=ZjhF80LqnX7Hv3CnXd551y9ZFL9NNYMtfNW163v4SB8=",
+          "field": "Marketing Manager",
+          "description": "Plans and executes marketing campaigns to promote products and services.",
+          "skills": ["Creativity", "Market Research", "Leadership"],
+          "salary": "₹5–10 LPA",
+          "experience": "2–5 years",
+          "courses": ["BBA Marketing", "Digital Marketing Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1488294044/photo/businessman-works-on-laptop-showing-business-analytics-dashboard-with-charts-metrics-and-kpi.jpg?s=612x612&w=0&k=20&c=AcxzQAe1LY4lGp0C6EQ6reI7ZkFC2ftS09yw_3BVkpk=",
+          "field": "Business Analyst",
+          "description": "Bridges business needs with technology solutions for efficiency.",
+          "skills": ["Analytical Thinking", "Communication", "IT Knowledge"],
+          "salary": "₹4–7 LPA",
+          "experience": "1–3 years",
+          "courses": ["BBA/BBM", "Business Analytics Certification"]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1383864065/photo/increase-sales-volume-profit-and-revenue-concept-successful-marketing-strategy-improving-lead.jpg?s=612x612&w=0&k=20&c=sYoaLSI_O71jUrho823sMMsmOC7r7SHMgk39echeaYc=",
+          "field": "Sales Executive",
+          "description": "Promotes and sells products/services to clients.",
+          "skills": [
+            "Sales",
+            "Negotiation",
+            "Communication",
+            "Networking",
+            "Customer Service"
+          ],
+          "salary": "₹2–5 LPA",
+          "experience": "0-2 years",
+          "courses": ["Sales Training", "Diploma in Marketing"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1168175766/photo/portrait-of-an-indian-man-in-a-diverse-team-of-creative-millennial-coworkers-in-a-startup.jpg?s=612x612&w=0&k=20&c=3WkAMECbELOCwAgrf3sXjyQ-s68et79d7mg9TIxa5x0=",
+          "field": "Marketing Associate",
+          "description": "Supports the marketing team in campaign planning and execution.",
+          "skills": ["Communication", "Creativity", "MS Office"],
+          "salary": "₹2.5–4.5 LPA",
+          "experience": "0–2 years",
+          "courses": ["Diploma in Marketing", "Digital Marketing Basics"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/1837425194/photo/call-center-workers.jpg?s=612x612&w=0&k=20&c=q82jzTMwhlruChYnet7Ji0j4jgXZMa2NP_WfyPxNSBQ=",
+          "field": "Customer Support",
+          "description": "Handles customer queries and complaints.",
+          "skills": [
+            "Communication",
+            "Patience",
+            "Problem-solving",
+            "Basic Tech Knowledge",
+            "Empathy"
+          ],
+          "salary": "₹2–4 LPA",
+          "experience": "Entry-level",
+          "courses": ["Customer Service Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1181690920/photo/cheerful-sales-woman-showing-a-design-on-tablet-to-mid-adult-couple-looking-for-furniture-at.jpg?s=612x612&w=0&k=20&c=QC-7wWIhElJulvrXdA7Ji3FoR9aZlL0Wbm6S37iDuSI=",
+          "field": "Retail Assistant",
+          "description": "Works in retail stores assisting customers and handling billing.",
+          "skills": ["Customer Service", "POS Systems", "Communication"],
+          "salary": "₹1.8–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Retail Management Basics"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Arts / Humanities",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1059228072/photo/newsreaders-in-television-studio.jpg?s=612x612&w=0&k=20&c=ritIhPGurTuh6WBb48i21zkD2r-oRFyiqziEBSXOJbg=",
+          "field": "Journalist",
+          "description": "Researches, writes, and reports news stories across various media platforms.",
+          "skills": [
+            "Writing",
+            "Research",
+            "Communication",
+            "Interviewing",
+            "Critical Thinking"
+          ],
+          "salary": "₹3–8 LPA",
+          "experience": "2-4 years",
+          "courses": [
+            "Bachelor in Journalism",
+            "Mass Communication Diploma",
+            "Creative Writing Workshops"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1498049997/photo/navigating-challenges-a-therapeutic-dialogue-between-an-asian-female-psychologist-and-a.jpg?s=612x612&w=0&k=20&c=aLrWZVXPOEuOt1qLaAufS9jyGBvTfbH6O7QrmHh3RFI=",
+          "field": "Psychologist",
+          "description": "Studies human behavior and mental processes to help individuals improve well-being.",
+          "skills": [
+            "Analytical Thinking",
+            "Counseling",
+            "Research",
+            "Communication",
+            "Empathy"
+          ],
+          "salary": "₹4–9 LPA",
+          "experience": "2-5 years",
+          "courses": [
+            "Bachelor/Master in Psychology",
+            "Counseling Certification",
+            "Behavioral Science Courses"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1278974057/photo/student-raising-hand-in-classroom-at-the-high-school.jpg?s=612x612&w=0&k=20&c=TUWOBbtSyU-YL-hXU4pDniiEupMR3gM5deuNQLllTQk=",
+          "field": "University Professor",
+          "description": "Teaches specialized subjects at the university level and conducts research.",
+          "skills": [
+            "Subject Expertise",
+            "Research",
+            "Teaching",
+            "Communication"
+          ],
+          "salary": "₹7–14 LPA",
+          "experience": "5–10 years",
+          "courses": ["M.A in relevant subject", "Ph.D"]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/1497811046/photo/a-doctor-and-her-assistant-doctor-engaged-in-a-conversation-with-family-members-of-a-village.jpg?s=612x612&w=0&k=20&c=tlxfJh1vYnm5PrnHvID4vdxnrqXmjpiinIxhgM5UrSY=",
+          "field": "Social Worker",
+          "description": "Supports individuals and communities through social services and programs.",
+          "skills": [
+            "Empathy",
+            "Communication",
+            "Problem Solving",
+            "Organizational Skills",
+            "Teamwork"
+          ],
+          "salary": "₹2–5 LPA",
+          "experience": "1-3 years",
+          "courses": [
+            "Bachelor in Social Work",
+            "Community Service Certification"
+          ]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1273511102/photo/determine-those-goals-then-get-them-done.jpg?s=612x612&w=0&k=20&c=8NN6hZxlioWuWM7IlfrhjalSaDnVo3Wbv3s0Ocq77qo=",
+          "field": "Content Writer",
+          "description": "Creates written content for websites, blogs, and social media.",
+          "skills": [
+            "Writing",
+            "SEO Basics",
+            "Research",
+            "Creativity",
+            "Editing"
+          ],
+          "salary": "₹2-6 LPA",
+          "experience": "0-2 years",
+          "courses": ["Content Writing Course", "SEO Training"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1901356165/photo/ai-translate-language-concept-businessman-hand-with-ai-translator-with-blue-background.jpg?s=612x612&w=0&k=20&c=C52GG6lwa0f6wRUy0cDbyff7IxfjZi9bZJrX0d5Y4CQ=",
+          "field": "Translator",
+          "description": "Translates and interprets languages for businesses, embassies, or media.",
+          "skills": [
+            "Language Proficiency",
+            "Cultural Awareness",
+            "Communication"
+          ],
+          "salary": "₹4–8 LPA",
+          "experience": "1–4 years",
+          "courses": ["B.A in Languages", "Translation Certification"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/1356940596/photo/bookstore-workers-arranging-books-on-shelf.jpg?s=612x612&w=0&k=20&c=M7yVXPNVLvyVUARdujExeh5eCYItvM5LVsIZSYJ_EBI=",
+          "field": "Library Assistant",
+          "description": "Assists in managing library resources and helping visitors.",
+          "skills": [
+            "Organization",
+            "Basic IT Skills",
+            "Customer Service",
+            "Attention to Detail"
+          ],
+          "salary": "₹1.5–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Library Management Diploma"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2156169703/photo/a-decorator-sits-at-a-table-in-a-restaurant-and-uses-a-digital-tablet-that-displays-detailed.jpg?s=612x612&w=0&k=20&c=gRZGPwEEm9oGGhHJRBG9vFunTP1YFkGIr33L9ZdkyYg=",
+          "field": "Event Manager",
+          "description": "Plans and organizes events like weddings, corporate meetings, and exhibitions.",
+          "skills": ["Organization", "Creativity", "Budgeting"],
+          "salary": "₹3–6 LPA",
+          "experience": "1–3 years",
+          "courses": ["Event Management Diploma"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Design / Creativity",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1280363987/photo/workspace-of-a-graphic-designer.jpg?s=612x612&w=0&k=20&c=0wgNIgKrMEJRPTweKKjC8hnp68gFOeCgqyR2_Pb7RSw=",
+          "field": "Graphic Designer",
+          "description": "Creates visual concepts for branding, advertising, and communications.",
+          "skills": [
+            "Adobe Photoshop",
+            "Illustrator",
+            "Creativity",
+            "Typography",
+            "UX/UI Design"
+          ],
+          "salary": "₹3–7 LPA",
+          "experience": "2-4 years",
+          "courses": [
+            "Graphic Design Degree",
+            "UX/UI Design Bootcamp",
+            "Adobe Certification"
+          ]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1386635861/photo/animator-drawing-a-portrait-in-image-editing-software.jpg?s=612x612&w=0&k=20&c=k5-mZV5oIBE8DED-xh0Uq4a08AQzDcccpbcVs0SI9Qo=",
+          "field": "Animator",
+          "description": "Produces animation and visual effects for media and entertainment.",
+          "skills": [
+            "3D Modeling",
+            "Animation Software",
+            "Storyboarding",
+            "Creativity",
+            "Attention to Detail"
+          ],
+          "salary": "₹4–8 LPA",
+          "experience": "2-4 years",
+          "courses": [
+            "Animation Diploma",
+            "Maya/Blender Training",
+            "Digital Arts Degree"
+          ]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/1060739400/photo/web-design-technology-browsing-programming-concept.jpg?s=612x612&w=0&k=20&c=Hs5v5YMgJgagphtSj9P-446x39mXwuSlnMVpwZlvkOY=",
+          "field": "Web Designer",
+          "description": "Designs user-friendly and attractive websites.",
+          "skills": [
+            "HTML/CSS",
+            "Photoshop",
+            "UX Principles",
+            "Creativity",
+            "Responsive Design"
+          ],
+          "salary": "₹3–6 LPA",
+          "experience": "1-3 years",
+          "courses": ["Web Design Course", "UX/UI Fundamentals"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1280363987/photo/workspace-of-a-graphic-designer.jpg?s=612x612&w=0&k=20&c=0wgNIgKrMEJRPTweKKjC8hnp68gFOeCgqyR2_Pb7RSw=",
+          "field": "Graphic Designer",
+          "description": "Creates branding, posters, and digital assets for businesses and clients.",
+          "skills": ["Adobe Photoshop", "Illustrator", "Creativity"],
+          "salary": "₹3–7 LPA",
+          "experience": "1–4 years",
+          "courses": ["Diploma in Graphic Design", "Adobe Certification"]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1852190119/photo/young-man-on-safari-journey-by-off-road-car-in-sri-lanka.jpg?s=612x612&w=0&k=20&c=VJ0x_BZ6ivx7H059WyeaTA5ArNOtXjU3olz6HzpehCU=",
+          "field": "Photography Assistant",
+          "description": "Supports s during shoots and editing.",
+          "skills": [
+            "Camera Handling",
+            "Photo Editing",
+            "Creativity",
+            "Organization",
+            "Lighting Basics"
+          ],
+          "salary": "₹2-4 LPA",
+          "experience": "0-2 years",
+          "courses": ["Photography Basics", "Photo Editing Software"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2157083256/photo/modern-living-room-interior-with-white-sofa-against-the-wood-background.jpg?s=612x612&w=0&k=20&c=Xe48Yypr7F1np-9vo1tGyGTXK0uVI-LRZSTAQB5uoTc=",
+          "field": "Interior Designer",
+          "description": "Designs indoor spaces to be aesthetically pleasing and functional.",
+          "skills": ["Creativity", "3D Design", "AutoCAD"],
+          "salary": "₹4–8 LPA",
+          "experience": "2–5 years",
+          "courses": ["B.Des in Interior Design", "Interior Design Diploma"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2151733283/photo/professional-video-editor-works-on-laptop-in-cozy-cafe-freelancer-with-tattoos-wearing.jpg?s=612x612&w=0&k=20&c=3h19b-vVQJTManDYhZi5xMggR7oCtHi_DZwltbj5EL4=",
+          "field": "Video Editor",
+          "description": "Edits raw video footage into polished final products for media or marketing.",
+          "skills": ["Adobe Premiere Pro", "Final Cut Pro", "Creativity"],
+          "salary": "₹2.5–5 LPA",
+          "experience": "0–2 years",
+          "courses": ["Video Editing Workshop", "Film Editing Certification"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/466222336/photo/modern-printing-house.jpg?s=612x612&w=0&k=20&c=jFC1umXR5G60ocBtOiXMUgOCfBGGdEAlyrcdPYlF1gk=",
+          "field": "Print Shop Assistant",
+          "description": "Helps in print production and handling equipment.",
+          "skills": [
+            "Customer Service",
+            "Basic Design Knowledge",
+            "Equipment Operation"
+          ],
+          "salary": "₹1.5–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Print Technology Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1387434599/photo/cropped-hand-of-a-senior-artist-with-painting-brush-and-wooden-colour-palette.jpg?s=612x612&w=0&k=20&c=Mfg3PtDUBynnFQAcLVoUDv7bCq6erg_1c6IuKc_2e8o=",
+          "field": "Craft Artist",
+          "description": "Produces handmade decorative or functional craft items.",
+          "skills": ["Creativity", "Crafting", "Design Thinking"],
+          "salary": "₹1.5–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Handicrafts Training Program"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Healthcare / Medicine",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/165419099/photo/close-up-of-a-doctor-in-scrubs-with-stethoscope.jpg?s=612x612&w=0&k=20&c=Xu5lcu0WvvigOrBqkuCglp8YANTeIUlf9txQTbt6uiY=",
+          "field": "Doctor",
+          "description": "Diagnoses and treats illnesses, promotes health care.",
+          "skills": [
+            "Medical Knowledge",
+            "Communication",
+            "Problem Solving",
+            "Empathy",
+            "Critical Thinking"
+          ],
+          "salary": "₹8-20 LPA",
+          "experience": "5+ years (including internship)",
+          "courses": ["MBBS", "MD/MS Specializations"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1475020235/photo/female-pharmacist-holding-medicines.jpg?s=612x612&w=0&k=20&c=uWBh1-1qiqGxV3IumgDix0xEs5A8qzlP-qOWKjXesvA=",
+          "field": "Pharmacist",
+          "description": "Dispenses medications and advises on their use.",
+          "skills": [
+            "Pharmacology",
+            "Attention to Detail",
+            "Communication",
+            "Math Skills",
+            "Ethics"
+          ],
+          "salary": "3-6 LPA",
+          "experience": "2-4 years",
+          "courses": ["B.Pharm", "D.Pharm"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1064904934/photo/young-woman-having-her-teeth-checked-during-appointment-at-dentists-office.jpg?s=612x612&w=0&k=20&c=RfmWb1AfHG7ab3dSAuAfI91PubTKrhfXlBL-pYB-1h8=",
+          "field": "Dentist",
+          "description": "Specializes in oral health, including teeth, gums, and dental surgery.",
+          "skills": ["Dental Procedures", "Attention to Detail", "Patience"],
+          "salary": "₹6–12 LPA",
+          "experience": "3–6 years",
+          "courses": ["BDS", "MDS"]
+        }
+      ],
+      "70": [
+        {
+          "image": "https://media.istockphoto.com/id/1403208210/photo/close-up-shot-of-doctor-counting-pulse-by-holding-hand-of-sick-patient-concept-of-health.jpg?s=612x612&w=0&k=20&c=TMvs8ZwjFd3EAPVLPQWYpz2oy-l4mjhlqxuDn8GcdxE=",
+          "field": "Nurse",
+          "description": "Provides patient care and supports doctors in hospitals and clinics.",
+          "skills": [
+            "Patient Care",
+            "Medical Knowledge",
+            "Communication",
+            "Attention to Detail",
+            "Teamwork"
+          ],
+          "salary": "₹2.5–5 LPA",
+          "experience": "1-3 years",
+          "courses": ["B.Sc Nursing", "Diploma in Nursing"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/2156911926/photo/physiotherapy-senior-man-and-stretching-leg-for-knee-injury-medical-and-consultant-with.jpg?s=612x612&w=0&k=20&c=xiZzAJW__jIMsZtqOQoPdKYxPMGpEoJlTBLqOvfxR18=",
+          "field": "Physiotherapist",
+          "description": "Helps patients recover physical mobility through exercises and therapy.",
+          "skills": ["Rehabilitation", "Patience", "Anatomy Knowledge"],
+          "salary": "₹4–7 LPA",
+          "experience": "2–5 years",
+          "courses": ["BPT", "MPT"]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/823447562/photo/research-scientist-looks-into-microscope-hes-conducts-experiments-in-modern-laboratory.jpg?s=612x612&w=0&k=20&c=Q68ORwn1k3hCQ-L7y_3Mrr5tzhCgKkHA11N6AKy1UXg=",
+          "field": "Lab Technician",
+          "description": "Conducts lab tests and assists in diagnosis.",
+          "skills": [
+            "Laboratory Techniques",
+            "Attention to Detail",
+            "Safety Procedures",
+            "Data Recording"
+          ],
+          "salary": "₹2–4 LPA",
+          "experience": "1-2 years",
+          "courses": ["Diploma in Medical Laboratory Technology"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/927414064/photo/dietitian-consultation-practitioner-and-patient-discussing-diet-plan.jpg?s=612x612&w=0&k=20&c=fi2z70ouJr_OUyIPbFYu-A-y9tj5QJW0yIOr4iIKprU=",
+          "field": "Dietitian / Nutritionist",
+          "description": "Advises patients on healthy diets and nutrition plans.",
+          "skills": ["Nutrition Knowledge", "Counseling", "Planning"],
+          "salary": "₹3–6 LPA",
+          "experience": "1–3 years",
+          "courses": ["B.Sc Nutrition", "M.Sc Dietetics"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/2062608145/photo/a-female-nurse-caregiver-holds-hands-to-encourage-and-comfort-an-elderly-woman-for-care-and.jpg?s=612x612&w=0&k=20&c=Lo7HtaqWa03gYDiK_oEviUy8XpHI2kizZfhi5ZF7lug=",
+          "field": "Healthcare Assistant",
+          "description": "Supports healthcare staff and helps with patient needs.",
+          "skills": [
+            "Communication",
+            "Basic Medical Knowledge",
+            "Empathy",
+            "Organization"
+          ],
+          "salary": "₹1.5–3 LPA",
+          "experience": "Entry-level",
+          "courses": ["Certificate in Healthcare Assistance"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/541852730/photo/ambulance-crew-pulling-stretcher.jpg?s=612x612&w=0&k=20&c=ZEHO_AG9kWfBtz0AMJheXWj7P58U8XIWvsdze0dznno=",
+          "field": "Paramedic",
+          "description": "Provides emergency first aid and patient transport in ambulances.",
+          "skills": ["First Aid", "Quick Decision-making", "Compassion"],
+          "salary": "₹2–3.5 LPA",
+          "experience": "Entry-level",
+          "courses": ["Paramedical Diploma"]
+        }
+      ]
+    }
+  },
+  {
+    "category": "Government / Law Enforcement",
+    "marks_based_suggestions": {
+      "85": [
+        {
+          "image": "https://media.istockphoto.com/id/1183967736/photo/ias-acronym-from-wooden-blocks-with-letters.jpg?s=612x612&w=0&k=20&c=pve_ODma_KcFBEHaNtQlQGlwZkQtprjSBLojDrS_QCA=",
+          "field": "IAS Officer",
+          "description": "Administrative leader in government policies and implementation.",
+          "skills": [
+            "Leadership",
+            "Decision Making",
+            "Communication",
+            "Problem Solving",
+            "Ethics"
+          ],
+          "salary": "₹10–18 LPA",
+          "experience": "Depends on career progression",
+          "courses": ["Civil Services Preparation", "Political Science Degree"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/579777946/photo/police-tape-hindi.jpg?s=612x612&w=0&k=20&c=3jWanl9JW2pMJXczkxgAhHVAq-txYIYOmBTTvxt2WWU=",
+          "field": "IPS Officer",
+          "description": "Leads police operations and maintains law and order.",
+          "skills": [
+            "Physical Fitness",
+            "Leadership",
+            "Crisis Management",
+            "Decision Making",
+            "Communication"
+          ],
+          "salary": "₹8–15 LPA",
+          "experience": "Depends on career progression",
+          "courses": ["Police Training Academy", "Law Degree (optional)"]
+        }
+      ],
+      "75": [
+        {
+          "image": "https://media.istockphoto.com/id/910060330/photo/documents-search.jpg?s=612x612&w=0&k=20&c=KfxuGPyYRuNIDsKuhshRcDpeQyFZliatNg0VxLvKpBw=",
+          "field": "Sub Inspector",
+          "description": "Assists in investigation and law enforcement activities.",
+          "skills": [
+            "Investigation",
+            "Communication",
+            "Physical Fitness",
+            "Problem Solving"
+          ],
+          "salary": "4–8 LPA",
+          "experience": "Entry to mid-level",
+          "courses": ["Police Training", "Law Enforcement Certification"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1414921577/photo/inspestions-at-commercial-transport-dock.jpg?s=612x612&w=0&k=20&c=XTqQc36uwPYXpbXGjZQpuzGE6qmfUUgY4ngpJl3ujeQ=",
+          "field": "Customs Officer",
+          "description": "Monitors imports and exports, ensures taxation, and prevents smuggling.",
+          "skills": ["Observation", "Law Knowledge", "Analytical Thinking"],
+          "salary": "₹5–9 LPA",
+          "experience": "3–5 years",
+          "courses": ["SSC CGL", "Customs Exam"]
+        }
+      ],
+      "50": [
+        {
+          "image": "https://media.istockphoto.com/id/1146830184/photo/financial-advisor-with-indian-family.jpg?s=612x612&w=0&k=20&c=eCh1q8n7oO6nFUvo3MvXtN4PPiTlIGIhbbD2mz82NBE=",
+          "field": "Clerk",
+          "description": "Handles administrative tasks in government departments.",
+          "skills": [
+            "Typing",
+            "Record Keeping",
+            "Communication",
+            "Organization"
+          ],
+          "salary": "₹2–4 LPA",
+          "experience": "Entry-level",
+          "courses": ["Office Administration Course", "Basic Computer Skills"]
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1328102406/photo/roup-of-soldiers-in-camouflage-military-uniforms-with-weapon-combs-through-area.jpg?s=612x612&w=0&k=20&c=UsI8t98WvUxmIMGMxhcCGAOwjZtE2VZtskqTLWbMTIU=",
+          "field": "Forest Guard",
+          "description": "Protects forests, wildlife, and natural resources.",
+          "skills": ["Environmental Knowledge", "Fitness", "Law Enforcement"],
+          "salary": "₹3–5 LPA",
+          "experience": "0–3 years",
+          "courses": ["State Forest Exam", "Environment Certification"]
+        }
+      ],
+      "25": [
+        {
+          "image": "https://media.istockphoto.com/id/108224617/photo/silhouette-of-a-prison-police-warden.jpg?s=612x612&w=0&k=20&c=9XhN_23xGGBp9lOVNU_QlyITucYQ73oUsPDmvga8kL8=",
+          "field": "Constable",
+          "description": "Performs basic police duties and maintains public order.",
+          "skills": [
+            "Physical Fitness",
+            "Discipline",
+            "Teamwork",
+            "Communication"
+          ],
+          "salary": "₹2–4 LPA",
+          "experience": "Entry-level",
+          "courses": ["Police Training School"]
+        },
+        {
+          "image": "https://plus.unsplash.com/premium_photo-1682125948844-e2dc8996b0f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2VjdXJpdHklMjBHdWFyZHxlbnwwfHwwfHx8MA%3D%3D",
+          "field": "Security Guard",
+          "description": "Provides safety and security to offices, schools, and residential premises.",
+          "skills": ["Observation", "Discipline", "Basic Fitness"],
+          "salary": "₹1.5–2.5 LPA",
+          "experience": "Entry-level",
+          "courses": ["Security Training Program"]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,23 @@
+.cta {
+  background-image: url(../assets/blurImg2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient-btn {
+  background: linear-gradient(
+    to right bottom,
+    #69a5ff,
+    #b653e7,
+    #ff6e82,
+    #ff433c
+  );
+}
+
+.aboutus {
+  background-image: url(../assets/blurImg1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

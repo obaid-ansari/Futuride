@@ -1,0 +1,18 @@
+.gradient-text {
+  background: linear-gradient(to right, #69a5ff, #b653e7, #ff6e82, #ff433c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero {
+  background-image: url(../assets/blurImg3.svg);
+  height: 98vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

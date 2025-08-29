@@ -1,0 +1,71 @@
+/* Global smooth transitions */
+body,
+.navbar,
+.hero,
+.btn-dark,
+.btn-outline-dark,
+.shadow,
+.border {
+  transition: background-color 0.3s linear, color 0.3s linear,
+    box-shadow 0.3s linear, border 0.3s linear, all 0.3s linear;
+}
+/* Base body styles */
+body {
+  background-color: #ffffff;
+  color: #101011;
+}
+
+/* Dark mode base styles */
+body.dark-mode {
+  background-color: #101011;
+  color: #ffffff;
+}
+
+/* Navbar */
+body.dark-mode .navbar {
+  background-color: rgba(16, 16, 17, 0.7);
+}
+
+/* Hero section */
+body.dark-mode .hero {
+  background-color: #000000;
+}
+
+/* CTA section */
+body.dark-mode .cta {
+  background-color: #000000;
+}
+
+body.dark-mode .aboutus {
+  background-color: #111;
+}
+
+/* Buttons */
+body.dark-mode .btn-dark {
+  background-color: #ffffff;
+  color: #212529;
+  border: none;
+}
+
+body.dark-mode .btn-dark:hover {
+  background-color: #e6e6e6;
+  color: #212529;
+}
+
+body.dark-mode .btn-outline-dark {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* Borders */
+.dark-mode .border {
+  border: 1px solid #333 !important;
+}
+
+.video-card {
+  transition: all 0.3s linear;
+  &:hover {
+    transform: translateY(-4px);
+  }
+}

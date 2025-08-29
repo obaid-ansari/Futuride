@@ -1,0 +1,71 @@
+/* Grid container */
+.features-card-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+/* First 2 cards - Rectangle */
+.card-1,
+.card-2 {
+  grid-column: span 3;
+}
+
+/* Last 3 cards - Square */
+.card-3,
+.card-4,
+.card-5 {
+  grid-column: span 2;
+}
+
+@media (max-width: 1024px) {
+  .features-card-container {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 100%;
+    gap: 20px;
+  }
+
+  .card {
+    height: auto;
+    aspect-ratio: unset;
+  }
+
+  .card-1 {
+    position: sticky;
+    top: 100px;
+  }
+  .card-2 {
+    position: sticky;
+    top: 110px;
+  }
+  .card-3 {
+    position: sticky;
+    top: 120px;
+  }
+  .card-4 {
+    position: sticky;
+    top: 130px;
+  }
+
+  .card-5 {
+    position: relative;
+  }
+
+  .card-3,
+  .card-4,
+  .card-5 {
+    grid-column: span 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    grid-column: span 1 !important;
+    height: auto;
+  }
+}
