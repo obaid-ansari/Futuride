@@ -58,10 +58,14 @@ const Quiz = ({ isDark }) => {
       setApiError("");
       setSubmitted(false);
 
-      const res = await axios.post("http://localhost:5000/api/filter", {
-        interest: formData.interest,
-        marks: Number(formData.marks),
-      });
+      const res = await axios.post(
+        // "http://localhost:5000/api/filter"
+        "https://futuride-backend.onrender.com/api/filter",
+        {
+          interest: formData.interest,
+          marks: Number(formData.marks),
+        }
+      );
 
       setResults(Array.isArray(res.data) ? res.data : []);
       setSubmitted(true);
