@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://futuride.netlify.app/", // (if you deploy frontend on Render later)
+      "https://futuride.netlify.app", // (if you deploy frontend on Render later)
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
