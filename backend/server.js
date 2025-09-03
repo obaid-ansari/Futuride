@@ -7,7 +7,7 @@ const app = express();
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://futuride.netlify.app",
+    origin: ["http://localhost:5173", "https://futuride.netlify.app"],
     methods: ["GET", "POST"],
     credentials: true,
   })
