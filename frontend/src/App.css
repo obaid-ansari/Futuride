@@ -40,9 +40,8 @@ body.dark-mode .aboutus {
   background-color: #111;
 }
 
-/* Buttons */
 body.dark-mode .btn-dark {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #212529;
   border: none;
 }
@@ -56,6 +55,18 @@ body.dark-mode .btn-outline-dark {
   background-color: transparent;
   color: #ffffff;
   border: 1px solid #ffffff;
+}
+
+body.dark-mode .btn-outline-dark:hover {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+.btn-outline-dark:hover {
+  background-color: transparent !important;
+  color: #212529 !important;
+  border: 1px solid #212529 !important;
 }
 
 /* Borders */

@@ -1,14 +1,19 @@
 import React from "react";
+import "../css/AboutUs.css";
 
 const About = () => {
   return (
-    <div className="aboutus mb-5 pb-5" aria-labelledby="about-heading">
-      <h6 id="about-heading" className="text-center fw-bold fs-1 my-5">
+    <section
+      id="about"
+      className="aboutus mb-5 py-5 rounded-4 border"
+      loading="lazy"
+      aria-labelledby="about-heading">
+      <h6 id="about-heading" className="text-center fw-bold fs-1 mb-5">
         About <span className="gradient-text">Futuride</span>
       </h6>
 
       <p
-        className="fs-5 text-center m-auto opacity-75"
+        className="fs-5 text-center opacity-75 container"
         style={{ maxWidth: "900px" }}>
         <strong>Futuride</strong> is your personalized career navigator designed
         to support <strong>students</strong>, <strong>freshers</strong>, and
@@ -23,7 +28,7 @@ const About = () => {
         decisions and discover a fulfilling career path that truly matches your
         goals and personality.
       </p>
-    </div>
+    </section>
   );
 };
 

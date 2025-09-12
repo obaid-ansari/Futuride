@@ -51,7 +51,7 @@ const HowItWork = () => {
         </div>
 
         {/* Step Cards */}
-        <div className="col-12 col-lg-9 d-flex justify-content-center flex-wrap gap-4">
+        <div className="col-12 col-lg-8 d-flex justify-content-center flex-wrap gap-4">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -59,7 +59,7 @@ const HowItWork = () => {
               style={{
                 boxShadow:
                   "rgb(204, 219, 232) 3px 3px 12px 0px inset, rgba(191, 191, 191, 0.3) -3px -3px 12px 1px inset",
-                width: "300px",
+                width: "250px",
               }}
               data-aos="zoom-out-up"
               data-aos-offset="0"

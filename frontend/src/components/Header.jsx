@@ -13,7 +13,6 @@ const Header = ({ toggleTheme, isDark }) => {
   const handleOutsideClick = (event) => {
     if (navRef.current && !navRef.current.contains(event.target)) {
       setIsToggled(false);
-      removeBlur();
     }
   };
 
@@ -28,27 +27,9 @@ const Header = ({ toggleTheme, isDark }) => {
     };
   }, [isToggled]);
 
-  const blurrybg = () => {
-    const nav = document.querySelector(".navbar");
-    let nextElements = nav ? nav.nextElementSibling : null;
-    while (nextElements) {
-      nextElements = nextElements.nextElementSibling;
-    }
-  };
-
-  const removeBlur = () => {
-    const nav = document.querySelector(".navbar");
-    let nextElements = nav ? nav.nextElementSibling : null;
-    while (nextElements) {
-      nextElements.style.filter = "none";
-      nextElements = nextElements.nextElementSibling;
-    }
-  };
-
   // Smooth scroll handler with cross-page navigation
   const handleScroll = (id) => {
     setIsToggled(false);
-    removeBlur();
 
     if (location.pathname !== "/") {
       // Navigate to home and pass section id
@@ -101,7 +82,6 @@ const Header = ({ toggleTheme, isDark }) => {
               aria-controls="navbarNav"
               onClick={() => {
                 setIsToggled(!isToggled);
-                isToggled ? removeBlur() : blurrybg();
               }}>
               <div className={`hamburger ${isToggled ? "open" : ""}`}>
                 <span></span>
@@ -168,7 +148,6 @@ const Header = ({ toggleTheme, isDark }) => {
                 <a
                   href="/quiz"
                   className="btn btn-dark rounded-5 mb-lg-0 mb-1 px-3 py-2 fw-bold d-flex justify-content-center align-items-center shadow"
-                  onClick={removeBlur}
                   aria-label="Take the Futuride Quiz">
                   Take Quiz
                 </a>

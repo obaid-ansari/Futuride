@@ -47,3 +47,10 @@
 .hamburger.open span:nth-child(2) {
   transform: translateY(-4.5px) rotate(-45deg);
 }
+
+.nav-link {
+  transition: 0.2s all linear !important;
+  &:hover {
+    transform: translateY(-3px);
+  }
+}

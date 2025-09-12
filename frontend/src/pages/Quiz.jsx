@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import LoadingCard from "../components/LoadingCard ";
 import "../css/Quiz.css";
 
 import { FaTools, FaBookOpen } from "react-icons/fa";
@@ -56,7 +57,7 @@ const Quiz = ({ isDark }) => {
     try {
       setLoading(true);
       setApiError("");
-      setSubmitted(false);
+      setSubmitted(true);
 
       const res = await axios.post(
         // "http://localhost:5000/api/filter"
@@ -386,7 +387,16 @@ const Quiz = ({ isDark }) => {
       {submitted && (
         <div className="container" style={{ maxWidth: "1100px" }}>
           {loading && (
-            <div className="text-center fs-3">Loading suggestions…</div>
+            <>
+              <h2 className="text-center fw-bold my-4 display-5 d-flex justify-content-center align-items-center">
+                Career Suggestions
+              </h2>
+              <div className="row">
+                {[1, 2, 3].map((n) => (
+                  <LoadingCard key={n} />
+                ))}
+              </div>
+            </>
           )}
 
           {!loading && results.length > 0 && (

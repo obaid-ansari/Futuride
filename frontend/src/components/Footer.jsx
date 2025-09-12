@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import About from "./About";
 
 const Footer = ({ isDark }) => {
   return (
@@ -8,45 +9,18 @@ const Footer = ({ isDark }) => {
         isDark ? "bg-dark" : "bg-light"
       }`}
       aria-label="Footer">
-      <section
-        id="about"
-        className="aboutus mb-5 py-5 rounded-4 border"
-        loading="lazy"
-        aria-labelledby="about-heading">
-        <h6 id="about-heading" className="text-center fw-bold fs-1 mb-5">
-          About <span className="gradient-text">Futuride</span>
-        </h6>
-
-        <p
-          className="fs-5 text-center opacity-75 container"
-          style={{ maxWidth: "900px" }}>
-          <strong>Futuride</strong> is your personalized career navigator
-          designed to support <strong>students</strong>,{" "}
-          <strong>freshers</strong>, and
-          <strong> professionals looking to switch careers</strong>. It helps
-          you explore the most suitable professions by aligning your{" "}
-          <strong>interests</strong>,<strong> strengths</strong>, and{" "}
-          <strong>academic background</strong>.
-          <br />
-          <br />
-          With the power of our <strong>smart quiz</strong> engine and
-          <strong> instant career insights</strong>, you’ll make confident
-          decisions and discover a fulfilling career path that truly matches
-          your goals and personality.
-        </p>
-      </section>
+      {/* About us components */}
+      <About />
 
       <section className="footer row">
         {/* Branding Section */}
-        <div
-          className="col-12 col-lg-6 col-md-6 d-flex flex-column justify-content-center"
-          aria-label="Branding">
+        <div className="col-12 col-lg-6 col-md-6 d-flex flex-column justify-content-center">
           <a
             href="/"
             className={`fs-3 fw-bold d-flex align-items-center text-decoration-none ${
               isDark ? "text-light" : "text-dark"
             }`}
-            aria-label="Futuride Homepage">
+            aria-label="Futuride">
             <img
               src="/favicon.webp"
               alt="Futuride logo"
@@ -58,43 +32,22 @@ const Footer = ({ isDark }) => {
           <p className="ps-2 my-2 lead">
             Discover your future career path with confidence.
           </p>
+
           <div className="ps-2 fs-3 d-flex gap-3" aria-label="Social Links">
             <a
               href="https://github.com/obaid-ansari"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub">
-              <FaGithub
-                size={35}
-                style={{
-                  color: "#555",
-                }}
-              />
+              <FaGithub size={35} color={isDark ? "#ffffff" : "#000000"} />
             </a>
             <a
               href="https://www.linkedin.com/in/obaid-ansari-a37b60278/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn">
-              <FaLinkedin
-                size={35}
-                style={{
-                  color: "#555",
-                }}
-              />
+              <FaLinkedin size={35} color={isDark ? "#00a6ffff" : "#0072b1"} />
             </a>
-            {/* <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram">
-              <FaInstagram
-                size={35}
-                style={{
-                  color: "#000",
-                }}
-              />
-            </a> */}
           </div>
         </div>
 
@@ -112,7 +65,7 @@ const Footer = ({ isDark }) => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`${
+                className={`footer-link ${
                   isDark ? "text-light" : "text-dark"
                 } text-decoration-none mb-2 fs-5`}>
                 {link.name}
@@ -121,27 +74,20 @@ const Footer = ({ isDark }) => {
           </div>
           <div className="d-flex flex-column">
             <p className="fw-semibold fs-4 mb-3">Links</p>
-            <a
-              href="/quiz"
-              className={`${
-                isDark ? "text-light" : "text-dark"
-              } text-decoration-none mb-2 fs-5`}>
-              Quiz Page
-            </a>
-            <a
-              href="#video"
-              className={`${
-                isDark ? "text-light" : "text-dark"
-              } text-decoration-none mb-2 fs-5`}>
-              Videos
-            </a>
-            <a
-              href="#howitworks"
-              className={`${
-                isDark ? "text-light" : "text-dark"
-              } text-decoration-none mb-2 fs-5`}>
-              How It Works
-            </a>
+            {[
+              { name: "Quiz Page", href: "/quiz" },
+              { name: "Videos", href: "#video" },
+              { name: "How It Works", href: "#howitworks" },
+            ].map((link) => (
+              <a
+                key={link.name}
+                href={link.href}
+                className={`footer-link ${
+                  isDark ? "text-light" : "text-dark"
+                } text-decoration-none mb-2 fs-5`}>
+                {link.name}
+              </a>
+            ))}
           </div>
         </div>
       </section>
