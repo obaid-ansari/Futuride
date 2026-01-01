@@ -60,8 +60,8 @@ const Quiz = ({ isDark }) => {
       setSubmitted(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/filter",
-        // "https://futuride-n8ai.onrender.com/api/filter",
+        // "http://localhost:5000/api/filter",
+        "https://futuride-n8ai.onrender.com/api/filter",
         {
           interest: formData.interest,
           marks: Number(formData.marks),
