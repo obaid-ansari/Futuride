@@ -23,7 +23,6 @@ mongoose
 
 // Schema
 const CareerPathSchema = new mongoose.Schema({}, { strict: false });
-// collection name = "career_paths"
 const CareerPaths = mongoose.model(
   "CareerPaths",
   CareerPathSchema,

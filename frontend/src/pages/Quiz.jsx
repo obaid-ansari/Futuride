@@ -60,8 +60,8 @@ const Quiz = ({ isDark }) => {
       setSubmitted(true);
 
       const res = await axios.post(
-        // "http://localhost:5000/api/filter"
-        "https://futuride-n8ai.onrender.com/api/filter",
+        "http://localhost:5000/api/filter",
+        // "https://futuride-n8ai.onrender.com/api/filter",
         {
           interest: formData.interest,
           marks: Number(formData.marks),
@@ -95,14 +95,16 @@ const Quiz = ({ isDark }) => {
     <div
       className={`quiz-page d-flex flex-column align-items-center border rounded-4 px-2 py-5 ${
         isDark ? "dark-mode" : ""
-      }`}>
+      }`}
+    >
       <div
         className="text-center"
         data-aos="fade-down"
         data-aos-offset="0"
         data-aos-delay="200"
         data-aos-duration="1000"
-        data-aos-once="true">
+        data-aos-once="true"
+      >
         <h1 className="fw-bold display-4 pt-5">
           <span className="gradient-text">Futuride</span> Guide Quiz
         </h1>
@@ -119,7 +121,8 @@ const Quiz = ({ isDark }) => {
         data-aos-offset="0"
         data-aos-delay="600"
         data-aos-duration="1000"
-        data-aos-once="true">
+        data-aos-once="true"
+      >
         <div
           className="progress-bar"
           role="progressbar"
@@ -131,7 +134,8 @@ const Quiz = ({ isDark }) => {
           }}
           aria-valuenow={step}
           aria-valuemin={1}
-          aria-valuemax={totalSteps}>
+          aria-valuemax={totalSteps}
+        >
           Step {step} of {totalSteps}
         </div>
       </div>
@@ -145,7 +149,8 @@ const Quiz = ({ isDark }) => {
         data-aos-offset="0"
         data-aos-delay="800"
         data-aos-duration="1000"
-        data-aos-once="true">
+        data-aos-once="true"
+      >
         {/* Step 1 */}
         {step === 1 && (
           <>
@@ -158,7 +163,8 @@ const Quiz = ({ isDark }) => {
                 className="form-select"
                 value={formData.interest}
                 onChange={handleChange}
-                required>
+                required
+              >
                 <option value="">-- Select an option --</option>
                 <option value="Technology">Technology</option>
                 <option value="Science">Science</option>
@@ -294,7 +300,8 @@ const Quiz = ({ isDark }) => {
                 className="form-control"
                 placeholder="e.g., Python programming, Digital Marketing"
                 value={formData.courses}
-                onChange={handleChange}></textarea>
+                onChange={handleChange}
+              ></textarea>
             </div>
           </>
         )}
@@ -366,7 +373,8 @@ const Quiz = ({ isDark }) => {
             <button
               type="button"
               className="btn btn-outline-dark fw-bold shadow"
-              onClick={prevStep}>
+              onClick={prevStep}
+            >
               Previous
             </button>
           )}
@@ -409,7 +417,8 @@ const Quiz = ({ isDark }) => {
                 {results.map((item, idx) => (
                   <div key={idx} className="col-md-6 col-lg-4 my-2">
                     <div
-                      className={`cards border h-100 p-2 rounded-4 shadow-sm`}>
+                      className={`cards border h-100 p-2 rounded-4 shadow-sm`}
+                    >
                       {/* Image */}
                       {item.image && (
                         <div
@@ -420,7 +429,8 @@ const Quiz = ({ isDark }) => {
                             backgroundImage: `url(${item.image})`,
                             backgroundSize: "cover",
                             backgroundPosition: "center",
-                          }}></div>
+                          }}
+                        ></div>
                       )}
 
                       {/* Title */}
@@ -444,7 +454,8 @@ const Quiz = ({ isDark }) => {
                                   isDark
                                     ? "bg-dark text-light"
                                     : "bg-light text-dark"
-                                }`}>
+                                }`}
+                              >
                                 {skill}
                               </span>
                             ))}
